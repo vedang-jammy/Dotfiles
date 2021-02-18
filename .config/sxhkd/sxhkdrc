@@ -1,0 +1,156 @@
+
+# WM INDEPENDENT KEYBINDINGS
+
+# make sxhkd reload its configuration files:
+super + Escape
+	pkill -USR1 -x sxhkd
+
+
+
+# APPLICATION KEYBINDINGS (Super + Alt + Key)
+
+# terminal emulator
+#super + Return
+#	terminator
+# launch surf browser
+#super + alt + b
+ #   brave
+# launch ranger
+# super + r 
+# terminator -e ranger
+
+# launch youtube viewer
+    
+    
+# DMENU SCRIPTS (Alt+Ctrl+Key)
+
+# run program launcher
+# edit common config files
+alt + e 
+ /home/jammy/.dmenu/dmenu-edit-configs.sh
+
+# common system montoring programs
+alt + m
+ /home/jammy/.dmenu/dmenu-sysmon.sh
+# passmenu
+# reddio Reddit viewer
+#emoji picker
+alt + i
+ /home/jammy/.dmenu/dmenuunicode.sh
+#lock screeen
+alt + l
+ /home/jammy/.dmenu/dmenulock
+#scrot
+alt + s
+ /home/jammy/.dmenu/dmenu-scrot.sh
+
+#clock
+alt + ctrl + t
+ terminator -e tty-clock 
+   # Player Previous
+#XF86AudioPrev
+ #playerctl previous
+
+# Player Next
+#XF86AudioNext
+ #playerctl next
+
+# Player Play/Pause
+#XF86AudioPlay
+# playerctl	play-pause
+   
+# Audiokeys
+#XF86AudioMute
+ #amixer sset Master toggle; pkill -RTMIN+10 blocks
+#XF86Audio{Raise,Lower}Volume
+# amixer sset Master 5%{+,-}; pkill -RTMIN+10 blocks
+	
+#screenshot	
+#Print
+ #scrot '%Y-%m-%d_$wx$h_scrot.png' -e 'mv $f /home/jammy/screenshots'
+	
+#super + Print 
+ #scrot -s '%Y-%m-%d_$wx$h_scrot.png' -e 'mv $f /home/jammy/screenshots'
+# Function keys
+#F1
+# amixer sset Master 5%{-}; pkill -RTMIN+10 blocks
+#F2
+# amixer sset Master 5%{+}; pkill -RTMIN+10 blocks
+#F3
+# amixer sset Master toggle; pkill -RTMIN+10 blocks
+super + F1
+  thunar
+super + F2
+	brave
+#super + F3
+  
+super + F4
+	spotify 
+
+super + F5
+  joplin-desktop
+
+#F9
+#	lxqt-config-brightness -d 5
+# F10
+#	lxqt-config-brightness -i 5
+
+#keypad shortcuts
+
+#1
+alt + KP_End
+	blueberry
+#2
+alt + KP_Down
+	lxappearance
+#3
+#alt + KP_Next
+#	terminator -e nmtui
+#4
+alt + KP_Left
+	pavucontrol
+#5
+alt + KP_Begin
+	xfce4-power-manager-settings
+#6
+alt + KP_Right
+	nitrogen
+#7
+alt + KP_Home
+	rhythmbox
+#8
+#alt + KP_Up
+#	virtualbox
+#9
+alt + KP_Prior
+	telegram-desktop
+
+
+#firefox sites
+#twitter
+alt + t
+  brave 'www.twitter.com'
+#youtube
+alt + y
+	brave 'www.youtube.com'
+#MAL
+alt + a
+	brave 'https://myanimelist.net/' 
+#udemy
+alt + u
+	brave 'www.udemy.com'
+#keybr
+alt + k
+	brave 'www.keybr.com'
+#notion
+alt + n
+	brave 'www.notion.so'
+#wakatime
+alt + w
+	brave 'www.wakatime.com'
+#reddit
+alt + r
+	brave 'www.reddit.com'
+#gitlab
+alt + g
+  brave 'www.gitlab.com'
