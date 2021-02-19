@@ -11,7 +11,7 @@ This are my dotfiles for the programs I use in my linux rice.
 | ------ | ------ |
 | Os | Arco linux |
 | Window manager| qtile |
-| Color scheme | dracula |
+| Color scheme | nord |
 | text editor | neovim |
 | neovim theme | dracula |
 |  neovim bar theme | airline |
