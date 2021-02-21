@@ -3,7 +3,7 @@
 This are my dotfiles for the programs I use in my linux rice.
 
 ## heres the screenshot
-![rice](https://github.com/vedang-JammY/dotfiles/-/blob/master/rice1.png)
+![rice](https://github.com/vedang-jammy/Dotfiles/blob/main/rice1.png)
 
 ## programs & stuff
 
